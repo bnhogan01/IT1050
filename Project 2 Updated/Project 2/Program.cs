@@ -27,44 +27,51 @@
                 firstPerson.Spouse.firstName = System.Console.ReadLine();
             }
 
-            
-            
-            
-
-
+        //User Input for Second Person
+        
             Person secondPerson = new Person();
 
             System.Console.WriteLine("What is Person Two's firstName?");
-            System.Console.ReadLine(secondPerson.firstName);
+            System.Console.ReadLine();
 
             System.Console.WriteLine("What is Person Two's Last Name?");
-            System.Console.ReadLine(secondPerson.lastName);
+            System.Console.ReadLine();
 
             System.Console.WriteLine("What is Person Two's Age?");
-            System.Console.ReadLine(secondPerson.age);
+            secondPerson.age = int.Parse(System.Console.ReadLine());
 
-            System.Console.WriteLine("Is Person Two Married?");  
-            System.Console.ReadLine(secondPerson.isMarried);
+            System.Console.WriteLine("Is Person Two Married? (y/n) ");
+            bool isMarried = System.Console.ReadLine().StartsWith("y");
 
-            System.Console.WriteLine("If Person 2 is Married = (true), Then "What is His / Her Spouse's Name?");         
-            System.Console.ReadLine(secondPerson.Spouse);
-            
-            Person thirdPerson = new Person
+            if (isMarried)
+            {
+                secondPerson.Spouse = new Person();
+                System.Console.WriteLine("What is His / Her Spouses Name?");
+                secondPerson.Spouse.firstName = System.Console.ReadLine();
+            }
+
+            // User Inputs for Third person
+
+            Person thirdPerson = new Person();
 
             System.Console.WriteLine("What is Person Three's firstName?");
-            System.Console.ReadLine(thirdPerson.firstName);
+            System.Console.ReadLine();
 
             System.Console.WriteLine("What is Person Three's Last Name?");
-            System.Console.ReadLine(thirdPerson.lastName);
+            System.Console.ReadLine();
 
             System.Console.WriteLine("What is Person Three's Age?");
-            System.Console.ReadLine(thirdPerson.age);
+            thirdPerson.age = int.Parse(System.Console.ReadLine());
 
-            System.Console.WriteLine("Is Person Three Married?");
-            System.Console.ReadLine(thirdPerson.isMarried?);
+            System.Console.WriteLine("Is Person Three Married? (y/n) ");
+            bool isMarried = System.Console.ReadLine().StartsWith("y");
 
-            System.Console.WriteLine("If Person Three is Married = (true), Then "What is His / Her Spouse's Name?");
-            System.Console.ReadLine(thirdPerson.Spouse);
+            if (isMarried)
+            {
+                thirdPerson.Spouse = new Person();
+                System.Console.WriteLine("What is His / Her Spouses Name?");
+                thirdPerson.Spouse.firstName = System.Console.ReadLine();
+            }
 
 
 

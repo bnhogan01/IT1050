@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Person firstPerson = new Person ();
+            Person firstPerson = new Person();
 
             //User input for firstPerson
 
@@ -27,8 +27,8 @@
                 firstPerson.Spouse.firstName = System.Console.ReadLine();
             }
 
-        //User Input for Second Person
-        
+            //User Input for Second Person
+
             Person secondPerson = new Person();
 
             System.Console.WriteLine("What is Person Two's firstName?");
@@ -75,27 +75,42 @@
 
 
 
-            System.Console.WriteLine(firstPerson.GetFullName);
+            System.Console.WriteLine(firstPerson.GetFullName());
             System.Console.WriteLine(firstPerson.age);
             System.Console.WriteLine(firstPerson.Spouse);
-          
-            System.Console.WriteLine(secondPerson.GetFullName);
+
+            System.Console.WriteLine(secondPerson.GetFullName());
             System.Console.WriteLine(secondPerson.age);
             System.Console.WriteLine(secondPerson.Spouse);
 
 
-            System.Console.WriteLine(thirdPerson.GetFullName);
+            System.Console.WriteLine(thirdPerson.GetFullName());
             System.Console.WriteLine(thirdPerson.age);
             System.Console.WriteLine(thirdPerson.Spouse);
-            
-            Public void ("firstPerson.PrintNameandAge");
+
+            Person person1 = new Person();
+            person1.StateYourNameAndAge();
+            person1.isMarried();
+
+            Person person2 = new Person();
+            person2.StateYourNameAndAge();
+            person2.isMarried();
+
+            Person person3 = new Person();
+            person3.StateYourNameAndAge();
+            person3.StateYourNameAndAge();
+
+            System.Console.WriteLine("Average Age: " + averageAge());
+            System.Console.ReadKey();
+            Public writeLine("firstPerson.PrintNameandAge");
 
 
-            Public void ("secondPerson.PrintNameandAge");
-            Public void ("thirdPerson.PrintNameandAge");      
-            
-            
-            )
+            Public writeline("secondPerson.PrintNameandAge");
+            Public writeline("thirdPerson.PrintNameandAge");
+        }
+
+
+    } }        
                 
 
 

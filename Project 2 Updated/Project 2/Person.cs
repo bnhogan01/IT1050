@@ -25,10 +25,26 @@
             return firstName + " " + lastName;
         }
 
-        public void PrintNameAndAge()
+        public void StateYourNameAndAge()
         {
+            System.Console.WriteLine(this.firstName + " " + " says, 'Hello'.");
+            System.Console.WriteLine("My name is " + " " + this.GetFullName());
+            System.Console.WriteLine("My age is " + this.age);
+
+        }
+         averageAge()=  
+        {
+
+            this.age += this.age += this.age / 3 ();
+
 
         }
 
-    }
+    
+ 
 }
+
+
+
+
+}    

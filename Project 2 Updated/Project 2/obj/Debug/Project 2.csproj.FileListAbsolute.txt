@@ -2,4 +2,7 @@ C:\Users\bnhogan01\Desktop\Github\Project 2\Project 2\bin\Debug\Project 2.exe.co
 C:\Users\bnhogan01\Desktop\Github\Project 2\Project 2\obj\Debug\Project 2.csprojResolveAssemblyReference.cache
 C:\Users\bnhogan01\Desktop\Github\Project 2\Project 2 Updated\Project 2\bin\Debug\Project 2.exe.config
 C:\Users\bnhogan01\Desktop\Github\Project 2\IT1050\Project 2 Updated\Project 2\bin\Debug\Project 2.exe.config
-C:\Users\bnhogan01\Desktop\Github\Project 2\IT1050\Project 2 Updated\Project 2\obj\Debug\Project 2.csprojResolveAssemblyReference.cache
+C:\Users\bnhogan01\Desktop\Github\Project 2\IT1050\Project 2 Updated\Project 2\bin\Debug\Project 2.exe
+C:\Users\bnhogan01\Desktop\Github\Project 2\IT1050\Project 2 Updated\Project 2\bin\Debug\Project 2.pdb
+C:\Users\bnhogan01\Desktop\Github\Project 2\IT1050\Project 2 Updated\Project 2\obj\Debug\Project 2.exe
+C:\Users\bnhogan01\Desktop\Github\Project 2\IT1050\Project 2 Updated\Project 2\obj\Debug\Project 2.pdb

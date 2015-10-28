@@ -10,9 +10,6 @@
         public int age;
         public Person Spouse;
 
-        static double averageAge;
-
-
         //Methods
 
         public bool isMarried()
@@ -32,19 +29,10 @@
             System.Console.WriteLine("My age is " + this.age);
 
         }
-         averageAge()=  
+
+        static double averageAge()
         {
-
-            this.age += this.age += this.age / 3 ();
-
-
+            return 0;
         }
-
-    
- 
+    }
 }
-
-
-
-
-}    

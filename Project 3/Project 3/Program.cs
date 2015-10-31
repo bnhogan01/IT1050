@@ -14,9 +14,36 @@ namespace Project_3
         [STAThread]
         static void Main()
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            
+            new Student.Name = Jane;
+
+            new Student.Name = Joe;
+
+            new Student.Name = Melissa;
+
+            new Student.Name = Matt;
+
+            System.Console.WriteLine("Hi. What is your name?"); 
+
+            new Instructor = this.Instructor;
+
+            System.Console.WriteLine();
+            System.Console.ReadLine();
+
+
+
+
+            new Instructor.Name = Mike;
+
+            new Student.Name = Jane
+            new Student.Name = Joe
+
+
+
+
+
+
+            ;
         }
     }
 }

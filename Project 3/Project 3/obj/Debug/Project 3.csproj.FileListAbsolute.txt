@@ -1,1 +1,2 @@
 c:\users\s00935592\documents\visual studio 2013\Projects\Project 3\Project 3\bin\Debug\Project 3.exe.config
+C:\Users\bnhogan01\Desktop\Github\Project 2\IT1050\Project 3\Project 3\bin\Debug\Project 3.exe.config

@@ -8,10 +8,13 @@ namespace Project_3
 {
     class Student
     {
+        //variable declaration
 
         private string Name;
-        private int Grade = 0;
-        private Instructor Teacher;
+        private int Grade;
+        private string Instructor;
+
+
 
 
     }

@@ -5,13 +5,14 @@
     {
                //variable declaration
             
-            private string Name;
-            private string CourseName;
-            private string 
             
-            
-        
+            public string theInstructor;
+            public string Name;
+            public string CourseName;   
+    
                 
+       
+
             // method
 
             //set student grade

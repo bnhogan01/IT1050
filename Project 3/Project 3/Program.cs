@@ -14,14 +14,32 @@ namespace Project_3
         [STAThread]
         static void Main()
         {
-            
-            new Student.Name = Jane;
 
-            new Student.Name = Joe;
 
-            new Student.Name = Melissa;
+            Instructor theInstructor = new Instructor();
 
-            new Student.Name = Matt;
+            theInstructor.Name = "John";
+
+            Instructor theInstructor = new Instructor();
+
+            theInstructor.Name = "Mike";
+
+            Student student1 = new Student();
+                
+            student1.Name = "Jane"
+
+             Student student2 = new Student();
+
+            student2.Name = "Joe";
+
+            Student student3 = new Student();
+
+            Student3.Name = "Melissa";
+
+            Student student4 = new Student;
+
+            Student4.Name = "Matt";
+
 
             System.Console.WriteLine("Hi. What is your name?"); 
 

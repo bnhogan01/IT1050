@@ -2,30 +2,35 @@
 
 {
     class Instructor
-    {
-               //variable declaration
-            
-            
-            public string theInstructor;
-            public string Name;
-            public string CourseName;   
+{
+    //variable declaration
+
+
+    public string theInstructor;
+    public string Name;
+    public string courseName;
+    public int studentGrade;
+
+
+{  // method
     
-                
-       
-
-            // method
-
-            //set student grade
-
-            SetStudentGrade ()
-
-            private string Student.Name
-            private int Student.Grade
+    
+    {
+    //set student grade
 
 
+  
+       public string setSudentGrade(string Name, int studentGrade);
 
+            return this.Name + "" + this.studentGrade(); 
+
+            
+            
 
 
 
+
+
+        }
     }
 }

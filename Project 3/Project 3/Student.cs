@@ -10,9 +10,9 @@ namespace Project_3
     {
         //variable declaration
 
-        private string Name;
-        private int Grade;
-        private string Instructor;
+        public string Name;
+        public int setGrade;
+        public string Instructor;
 
 
 

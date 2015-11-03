@@ -16,45 +16,58 @@ namespace Project_3
         {
 
 
-            Instructor theInstructor = new Instructor();
+            Instructor John = new Instructor();
 
-            theInstructor.Name = "John";
+            John.Name = "John";
+            John.courseName = "English";
 
-            Instructor theInstructor = new Instructor();
 
-            theInstructor.Name = "Mike";
+            Instructor Mike = new Instructor();
+            
+
+            Mike.Name = "Mike";
+            Mike.courseName = "Math";
+
+
+
 
             Student student1 = new Student();
-                
-            student1.Name = "Jane"
+
+            student1.Name = "Jane";
+            student1.setGrade = 0;
+            student1.Instructor = "John";
 
              Student student2 = new Student();
 
             student2.Name = "Joe";
+            student2.setGrade = 0;
+            student2.Instructor = "John";
 
             Student student3 = new Student();
 
-            Student3.Name = "Melissa";
-
-            Student student4 = new Student;
-
-            Student4.Name = "Matt";
+            student3.Name = "Melissa";
+            student3.setGrade = 0;
+            student3.Instructor = "Mike";
 
 
-            System.Console.WriteLine("Hi. What is your name?"); 
+            Student student4 = new Student();
 
-            new Instructor = this.Instructor;
+            student4.Name = "Matt";
+            student4.setGrade = 0;
+            student4.Instructor = "Mike";
 
-            System.Console.WriteLine();
+
+            System.Console.WriteLine("Hi. What is your Student's name?");
             System.Console.ReadLine();
 
+            System.Console.WriteLine("What Grade Are You Assigning?")
+                System.Console.Readline(setStudentGrade);
 
 
 
-            new Instructor.Name = Mike;
 
-            new Student.Name = Jane
-            new Student.Name = Joe
+
+            
 
 
 

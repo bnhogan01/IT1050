@@ -1,21 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Project_3
+﻿namespace Project_3
 {
     class Student
     {
         //variable declaration
 
         public string Name;
-        public int setGrade;
-        public string Instructor;
+        public int Grade;
+        public Instructor Teacher;
 
-
-
-
+        public void setGrade(int grade)
+        {
+            this.Grade = grade;
+        }
     }
 }

@@ -7,7 +7,7 @@ namespace Project_3
 
         public string Name;
         public string courseName;
-        public string studentGrade;
+        public string StudentGrade;
 
         public Instructor(string firstName, string courseName)
         {
@@ -15,13 +15,7 @@ namespace Project_3
             this.courseName = courseName;
         }
 
-        public void setStudentGrade()
-        {
-            System.Console.Write("What is the Student's Name?");
-            System.Console.ReadLine();
-
-            System.Console.Write("What grade are you assigning?");
-            System.Console.ReadLine();
+        
         }
 
         public void SetStudentGrade(string studentName, int grade)
